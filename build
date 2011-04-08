@@ -1,0 +1,5 @@
+#!/bin/bash
+
+make distclean && make sq8612evb_nand_config && make && /bin/cp -f u-boot.bin u-boot-nand.bin || exit 1
+#make distclean && make sq8612evb_sd_config   && make && /bin/cp -f u-boot.bin u-boot-sd.bin   || exit 1
+

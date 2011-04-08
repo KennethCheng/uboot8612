@@ -1,0 +1,33 @@
+# Normal rules
+#
+.*
+*.o
+*.o.*
+*.a
+*.s
+*.ko
+*.so
+*.so.dbg
+*.mod.c
+*.i
+*.lst
+*.symtypes
+*.order
+*.elf
+*.bin
+*.gz
+*.bz2
+*.lzma
+*.patch
+*.gcno
+
+# quilt's files
+patches
+series
+
+!.gitignore
+!.mailmap
+
+*.orig
+*~
+\#*#

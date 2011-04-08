@@ -1,0 +1,8 @@
+
+#!/bin/bash
+
+make distclean
+rm -f u-boot-nand.bin
+rm -f u-boot-sd.bin
+rm -f u-boot.dis
+rm -f `find -name *.o` `find -name *.a`
